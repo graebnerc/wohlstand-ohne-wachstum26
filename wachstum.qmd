@@ -1,6 +1,6 @@
 ---
-title: "Wirtschaftswachstum"
-subtitle: "Pro & Contra — ein wissenschaftlicher Überblick"
+title: "Wohlstand ohne Wachstum – Illusion oder Notwendigkeit?"
+subtitle: "Ein Überblick über den Stand der Wissenschaft und seine Grenzen"
 date: "2026"
 format:
   revealjs:
@@ -17,22 +17,7 @@ format:
     embed-resources: true
 ---
 
-## {.cover-slide}
-
-::: section-label
-Volkswirtschaft · Debatte
-:::
-
-# Wirtschafts&shy;wachstum {.title-huge}
-
-::: rule
-:::
-
-*Pro & Contra — ein wissenschaftlicher Überblick*
-
----
-
-## Aufhänger {.merkel-slide}
+## Wachstum als Notwendigkeit {.merkel-slide}
 
 ::: section-label
 Aufhänger
@@ -41,10 +26,6 @@ Aufhänger
 :::: {.columns}
 ::: {.column width="30%"}
 ![Angela Merkel](img/Angela_Merkel.jpg){.merkel-photo}
-
-::: {.photo-credit}
-Angela Merkel
-:::
 :::
 
 ::: {.column width="70%"}
@@ -60,14 +41,61 @@ Angela Merkel
 :::
 
 ::: {.fragment}
-Diese Überzeugung teilen viele. Aber was sagt die Wissenschaft dazu — und wo beginnen die Grenzen?
+Diese Überzeugung teilen viele. Aber was sagt die Wissenschaft dazu? 
+Und gibt es auf einem endlichen Planeten nicht auch Grenzen des Wachstums?
 :::
 :::
 ::::
 
 ---
 
-## Heute {.agenda-slide}
+## Wachstum als politischer Konsens? {.merkel-slide}
+
+::: section-label
+Aufhänger
+:::
+
+:::: {.columns}
+::: {.column width="38%"}
+::: {.fragment .merkel-quote data-fragment-index="1"}
+„Wir brauchen Wachstum. Ohne Wachstum gibt es keine guten Löhne, keine Sicherheit für die Sozialsysteme. Wachstum ist die Schicksalsfrage unserer Nation. 2026 muss das Jahr des Wachstums werden."
+
+::: attribution
+— Jens Spahn (CDU) · Bundestag, 29.12.2025
+:::
+:::
+:::
+
+::: {.column width="12%"}
+::: {.fragment data-fragment-index="1"}
+![Jens Spahn](img/jens-spahn.jpg){style="width:100%; border-radius:4px;"}
+:::
+:::
+
+::: {.column width="12%"}
+::: {.fragment data-fragment-index="2"}
+![Katharina Beck](img/katharina-beck.jpg){style="width:100%; border-radius:4px;"}
+:::
+:::
+
+::: {.column width="38%"}
+::: {.fragment .merkel-quote data-fragment-index="2"}
+„Ich bin auch bei einer Wirtschaftswende dabei; 0,3 Prozent reicht mir auch nicht."
+
+::: attribution
+— Katharina Beck (Grüne) · Bundestag, 26.04.2024
+:::
+:::
+:::
+::::
+
+::: {.rule-full}
+:::
+
+
+---
+
+## Aufbau {.agenda-slide}
 
 ::: section-label
 Aufbau
@@ -79,15 +107,14 @@ Aufbau
 | Nr | Thema |
 |----|-------|
 | 01 | Was messen wir? BIP als Konzept |
-| **02** | **Pro-Wachstum — Argumente & Evidenz** |
+| 02 | Pro-Wachstum — Argumente & Evidenz |
 | 03 | Contra-Wachstum — Argumente, Evidenz & Datenlage |
-| 04 | Globale Perspektive |
-| 05 | Implikationen: drei Schulen & Suffizienz |
-| 06 | Offene Fragen & Ausblick |
+| 04 | Diskussion: drei Schulen und der Wachstumszwang |
+| 05 | Offene Fragen & Ausblick |
 
 ---
 
-## Was messen wir?
+## Wachstum ≠ BIP: Zwei Ebenen der Wachstumskritik
 
 ::: section-label
 01 · Grundlagen
@@ -96,19 +123,527 @@ Aufbau
 ::: rule
 :::
 
+:::{.incremental}
+- **Wirtschaftswachstum**: „Steigerung der Quantität und Qualität der wirtschaftlichen Güter und Dienstleistungen, die eine Gesellschaft produziert." (Roser, 2021)
+- **Bruttoinlandsprodukt (BIP)**: der monetäre Wert aller Endgüter und Dienstleistungen im Inland
+:::
+
+::: {.fragment .formula-box}
+**Zwei Ebenen der Kritik:**
+
+- **BIP-Kritik** = Messproblem: Care-Arbeit, Umweltschäden u.a. fehlen im Maß.
+- **Wachstumskritik** = Fundamentalkritik: Selbst ein perfektes Öko-BIP stößt auf einem endlichen Planeten an materielle Grenzen.
+:::
+
+---
+
+# Argumente für Wachstum {.pro-slide}
+
+---
+
+## Materieller Wohlstand {.pro-slide}
+
+::: section-label
+02 · Pro-Wachstum · Argument 1
+:::
+
+::: {.rule style="background:var(--pro);"}
+:::
+
+:::: {.columns}
+::: {.column width="55%"}
+::: chart-wrap
+![BIP und menschliche Entwicklung](img/gdp-hdi.png){width="100%"}
+
+::: chart-note
+Quelle: Our World in Data (2023) · UNDP
+:::
+:::
+:::
+
+::: {.column width="45%"}
+::: arg-card
+Mehr Produktion pro Kopf _korreliert_ mit besserer Grundversorgung — besonders bei niedrigen und mittleren Einkommen.
+
+[Evidenz: stark]{.badge .badge-stark}
+:::
+
+::: {.fragment .arg-card}
+**Einschränkung:**
+
+- BIP-Wachstum pro Kopf ist ein gewichteter Durchschnitt
+- Bildet Einkommensgewinne der Wohlhabenden überproportional ab
+
+[Schulte, ifso 2023]{.badge .badge-umstr}
+:::
+:::
+::::
+
+---
+
+## Lebenszufriedenheit {.pro-slide}
+
+::: section-label
+02 · Pro-Wachstum · Argument 1 (Forts.)
+:::
+
+::: {.rule style="background:var(--pro);"}
+:::
+
+:::: {.columns}
+::: {.column width="55%"}
+::: chart-wrap
+![BIP und Lebenszufriedenheit](img/gdp-happiness.png){width="100%"}
+
+::: chart-note
+Quelle: Our World in Data (2024) · Gallup / Wellbeing Research Centre
+:::
+:::
+:::
+
+::: {.column width="45%"}
+::: arg-card
+Höheres BIP pro Kopf $\leftrightarrow$ höhere Lebenszufriedenheit.
+
+[Evidenz: solide]{.badge .badge-solide}
+:::
+
+::: {.fragment .arg-card}
+**Einschränkung:** Große Streuung,  Faktoren jenseits des BIP (Ungleichheit, soziale Sicherheit, Institutionen) zweifellos relevant. 
+
+[Easterlin-Paradoxon, Deaton 2013]{.badge .badge-umstr}
+:::
+:::
+::::
+
+---
+
+## Wachstum als Mittel oder Zweck? {.pro-slide}
+
+::: section-label
+02 · Pro-Wachstum · Argument 1 (Forts.)
+:::
+
+::: {style="text-align: center; margin-top: 0.5em;"}
+![](img/Meme.jpeg){width="45%"}
+:::
+
+---
+
+## Sozialstaat {.pro-slide}
+
+::: section-label
+02 · Pro-Wachstum · Argument 4
+:::
+
+::: {.rule style="background:var(--pro);"}
+:::
+
+:::: {.columns}
+::: {.column width="52%"}
+::: arg-card
+**Sozialstaat finanzieren**
+
+Wachstum $\uparrow \rightarrow$ Steuer- und Beitragsbasis $\uparrow$ 
+
+[Evidenz: solide (kein Ersatz für Reformen)]{.badge .badge-solide}
+
+::: {.fragment data-fragment-index="2"}
+- Wachstumsunabhängige(re) Alternativen: Vermögenssteuern, Erbschaftsteuern, Wertschöpfungsabgabe, Arbeitszeitverkürzung.
+:::
+
+::: {.fragment data-fragment-index="3"}
+- Zeitpunkt: verteilungspolitische Dimension des Konflikts
+:::
+
+:::
+:::
+
+::: {.column width="48%"}
+::: {.fragment .merkel-quote data-fragment-index="1"}
+„Staatliche Leistungen wie Bürgergeld, Wohngeld, Elterngeld, BAföG werden wir absehbar nicht erhöhen können, in manchen Bereichen müssen wir sparen — jedenfalls solange wir kein Wachstum haben."
+
+::: attribution
+— Jens Spahn (CDU)
+:::
+:::
+:::
+::::
+
+::: {.fragment .chart-note}
+Daten Deutschland: Destatis Sozialleistungen · BMAS Sozialbudget · OECD SOCX Database · Bundesagentur für Arbeit ba-statistik.de
+:::
+
+
+# Argumente gegen Wachstum {.contra-slide}
+
+---
+
+## BIP ≠ Wohlbefinden {.contra-slide}
+
+::: section-label
+03 · Contra-Wachstum · Argument 1
+:::
+
+::: rule
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+::: chart-wrap
+![Lebenszufriedenheit nach Ländern](img/whr-figure.png){width="100%"}
+
+::: chart-note
+World Happiness Report 2026 · Gallup World Poll
+:::
+:::
+:::
+
+::: {.column width="40%"}
+
+::: arg-card
+Wohlbefinden hängt auch von Gleichheit, Sozialsystemen und Institutionen ab.
+
+[Evidenz: solide]{.badge .badge-solide}
+:::
+
+::: {.fragment .arg-card}
+**Einschränkung:** Zusammenhang zwischen Glück und Einkommen empirisch umstritten.
+
+[Killingsworth el al. (2023)]{.badge .badge-umstr}
+:::
+:::
+::::
+
+---
+
+## Argumente gegen Wachstum (2) {.contra-slide}
+
+::: section-label
+03 · Contra-Wachstum
+:::
+
+::: rule
+:::
+
+::: {.fragment .arg-card}
+**Ungleichheit & „Trickle-down"**
+
+* Wachstumserträge gehen an obere Einkommens- und Vermögensgruppen $\rightarrow$ Stabilisierung von Ungleichheit
+
+[Evidenz: solide]{.badge .badge-solide}
+:::
+
+::: {.fragment .arg-card}
+**Nord-Süd-Ungleichheit**
+
+* Wachstum im globalen Norden $\leftrightarrow$ Rohstoffentnahme und Externalisierung von Umweltkosten 
+* Ungleiche Machtverhältnisse im Weltsystem.
+
+[Evidenz: solide]{.badge .badge-solide}
+:::
+
+::: {.fragment .arg-card}
+**Das Mittel wird leicht zum Zweck**
+
+* Ausweitung der Arbeitszeit $\rightarrow$ Wachstum  
+* Ab bestimmtem Umfang sinkt das Wohlbefinden $\rightarrow$ Wachstum wird zum Selbstzweck
+* Beispiel: Abschaffung von Feiertagen als Wachstums-Booster
+
+[Zeitwohlstand-Forschung · Postwachstum-Kritik]{.badge .badge-umstr}
+:::
+
+---
+
+## Ökologische Grenzen: BIP und Emissionen {.contra-slide}
+
+::: section-label
+03 · Contra-Wachstum · Argument 2 — Ökologische Grenzen
+:::
+
+::: rule
+:::
+
+:::: {.columns}
+::: {.column width="42%"}
+::: chart-wrap
+![](img/Korrelation-MaterialCO2GDP.png){width="100%"}
+
+::: chart-note
+Quelle: IEA · Gräbner-Radkowitsch (2024)
+:::
+:::
+:::
+
+::: {.fragment .column width="58%"}
+::: chart-wrap
+![](img/decoupling.png){width="100%"}
+:::
+:::
+::::
+
+::: {.fragment}
+*Zentrale offene Frage: Ist Entkopplung - oder Wachstumsabkehr - überall und schnell genug möglich?*
+:::
+
+---
+
+
+# Implikationen
+
+---
+
+## Suffizienz: Verbrauch mitdenken
+
+::: section-label
+04 · Diskussion — Suffizienz
+:::
+
+::: rule
+:::
+
+Effizienz und erneuerbare Energien allein reichen nicht $\rightarrow$ Verbrauchsreduktion politisch undankbar, aber notwendig
+
+::: {.fragment .suf-card}
+**Sanierung statt nur Neubau fördern**
+
+* Gebäudebestand: 35% der EU-Energienachfrage
+* Sanierung bei Förderprogrammen gleichwertig zum Neubau behandeln! 
+:::
+
+::: {.fragment .suf-card}
+**Flächenverbrauch der Erneuerbaren mitdenken**
+
+* "Kein CO₂-Ausstoß" $\neq$ "keine ökologischen Kosten"
+* Solar- und Windenergie mit erheblichem Flächenbedarf $\rightarrow$ Biodiversität und Landwirtschaft
+:::
+
+::: {.fragment .suf-card}
+**Was folgt daraus?**
+
+* Grünes Wachstum und Suffizienz schließen sich nicht aus $\rightarrow$ konsistente Maßnahmenpakete existieren
+:::
+
+---
+
+## Drei wissenschaftliche Schulen
+
+::: rule
+:::
+
+:::: {.columns}
+::: {.column width="33%"}
+::: {.fragment .school-card .school-pro}
+**Grünes Wachstum**
+
+Wachstum ist möglich und nötig — aber ökologisch transformiert. Entkopplung durch Technologie & CO₂-Bepreisung.
+
+*OECD, Weltbank, viele Regierungen*
+:::
+:::
+
+::: {.column width="33%"}
+::: {.fragment .school-card .school-mid}
+**A-Growth**
+
+Wachstum nicht als Ziel, aber kein aktiver Abbau. Fokus auf Wohlstandsmaße jenseits des BIP.
+
+*Raworth, Jackson, Teile der EU-Forschung*
+:::
+:::
+
+::: {.column width="33%"}
+::: {.fragment .school-card .school-contra}
+**Postwachstum/Degrowth**
+
+Aktive Reduktion des materiellen Durchsatzes in reichen Ländern als ökologische Notwendigkeit.
+
+*Hickel, Kallis, Schmelzer*
+
+:::
+:::
+::::
+
+::: rule-full
+:::
+
+::: fragment
+*Alle drei Schulen sind in der Wissenschaft vertreten — die Wahl ist nicht nur empirisch, sondern auch normativ.*
+:::
+
+---
+
+## Wachstumszwänge?
+
+::: section-label
+05 · Implikationen — Verteilung
+:::
+
+::: rule
+:::
+
+- Wenn wir im globalen Norden mit dem auskämen was wir haben - warum sollte es Wachstum brauchen?
+
+. . .
+
+**Ökonomische Zwänge**
+
+- **Produktivitätsfalle:** Technischer Fortschritt, kein Wachstum $\rightarrow$ weniger Arbeit
+- **Institutionen-Design:** Gerade bei alternender Gesellschaft brauchen Sicherungssysteme Zuschüsse
+- **Profitlogik:** Unternehmen mit geringerem Gewinn gehen im Wettbewerb unter
+- **Statuslogik:** Menschen motiviert relativ aufzusteigen $\rightarrow$ resultiert im Kollektiven Wachstumszwang
+
+. . .
+
+**Politische 'Zwänge'**
+
+- Wachstum **vertagt** Verteilungskonflikte — alle können gewinnen
+- Stagnation macht Umverteilung **zwingend** — jemand muss abgeben
+- Schrumpfen **verschärft** beides — weniger Masse, mehr Konflikt
+
+::: {.fragment .formula-box}
+→ **Wachstumskritik ist immer auch Verteilungspolitik**
+:::
+
+::: rule-full
+:::
+
+---
+
+
+## Was bleibt offen?
+
+::: section-label
+06 · Ausblick
+:::
+
+::: rule
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+**Empirisch offen**
+
+- Wie wird Entkopplungsgeschwindigkeit maximiert?
+- Wie groß ist der Grenznutzen von Wachstum bei hohem Einkommen?
+- Welche Wachstumsmodelle reduzieren Ungleichheit?
+:::
+
+::: {.column width="50%"}
+**Normativ offen**
+
+- Wie viel ökologisches Risiko ist vertretbar?
+- Wessen Wohlstand zählt — und über welchen Zeitraum?
+- Was schulden reiche Länder dem globalen Süden?
+- Welche Maßnahmen lassen sich schnell genug umsetzen / "erzwingen" / "erkämpfen"?
+:::
+::::
+
+::: rule-full
+:::
+
+::: {.formula-box .fragment}
+Die **Pro-Seite** fragt: *Was leistet Wachstum?*
+
+Die **Contra-Seite** fragt: *Was kostet Wachstum — und was übersieht es?*
+
+Beide Fragen wissenschaftlich legitim $\rightarrow$ die Schlussfolgerungen daraus sind politisch.
+:::
+
+---
+
+## {.schluss-slide}
+
+::: section-label
+Fazit
+:::
+
+# Mein Fazit {.title-large}
+
+::: rule
+:::
+
+:::{.incremental}
+- Größte Gefahr: Wachstum wird vom Mittel zum Selbstzweck
+- Verteilung und Machtfragen **zentral** — aber in der Wachstumsdebatte oft unterbelichtet
+- Wachstumskritik ohne Verteilungsantwort und (pragmatische) Umsetzungsstrategie liefert **keine** politische Handlungsleitung
+- Ökologische Transformation muss **sozial abgefedert** werden — sonst keine Mehrheit und keine Umsetzung
+- Es geht auch um die Frage wie wir leben wollen $\rightarrow$ Wissenschaft kann und darf keine finalen Antworten liefern
+:::
+
+::: rule-full
+:::
+
+*Fragen & Diskussion*
+
+# Weiterführende Literatur für Interessierte
+
+## Zum Weiterlesen I {.smaller}
+### Grundbegriffe & Einstieg
+
+- Gräbner-Radkowitsch, C., & Schmelzer, M. (2026). Was ist Wachstum? In *Grundfragen der Ökonomie* (S. 67–81). Schäffer-Poeschel.
+  - *Ein aktueller, pointierter Überblick: Was genau meinen wir eigentlich, wenn wir von ökonomischem Wachstum sprechen?*
+
+- Schmelzer, M. & Vetter, A. (2019). *Degrowth/Postwachstum zur Einführung*. Junius.
+  - *Der kompakteste Einstieg: sieben Formen der Wachstumskritik, von ökologisch bis feministisch.*
+
+- Binswanger, M. (2019). *Der Wachstumszwang: Warum die Volkswirtschaft immer weiterwachsen muss, selbst wenn wir genug haben*. Wiley-VCH.
+  - *Diskutiert, warum das heutige Wirtschaftssystem strukturell auf Wachstum angewiesen ist — und was das für uns bedeutet.*
+
+- Jackson, T. (2017). *Wohlstand ohne Wachstum – das Update*. oekom.
+  - *Die „Bibel der Wachstumskritik" in erweiterter Neuauflage: Was ist Wohlstand ohne Wachstum — und wie kämen wir dorthin?*
+
+### Einkommen, Wachstum und Glücksempfinden
+
+- Easterlin, R. (1974). Does economic growth improve the human lot? *Nations and Households in Economic Growth*, 89–125.
+  - *Das Original: Innerhalb eines Landes macht Geld glücklicher — aber wächst das Land insgesamt, steigt das Glück langfristig kaum.*
+
+- Killingsworth, M. A., Kahneman, D. & Mellers, B. (2023). Income and emotional well-being: A conflict resolved. *PNAS, 120*(10). <https://doi.org/10.1073/pnas.2208661120>
+  - *Löst den scheinbaren Widerspruch zwischen Easterlin und neueren Studien auf: Geld macht scheinbar wirklich glücklicher — aber es ist nur ein Puzzlestück unter vielem.*
+
+- Clark, A. E., Frijters, P. & Shields, M. A. (2008). Relative income, happiness, and utility. *Journal of Economic Literature, 46*(1), 95–144.
+  - *Warum sozialer Vergleich erklärt, dass absolutes Einkommenswachstum langfristig keine Glücksdividende liefert.*
+
+## Zum Weiterlesen II {.smaller}
+
+### Alternativen, Kompromisse & Globale Sicht
+
+- Umweltbundesamt (2018). *Gesellschaftliches Wohlergehen innerhalb planetarer Grenzen: Der Ansatz einer vorsorgeorientierten Postwachstumsposition*.
+  - *Ein pragmatischer Kompromiss: Wie Institutionen so umgebaut werden können, dass sie gut funktionieren, unabhängig davon, ob die Wirtschaft wächst oder nicht.*
+
+- Gräbner-Radkowitsch, C., & Strunk, B. (2023). Degrowth and the Global South: The twin problem of global dependencies. *Ecological Economics, 213*.
+  - *Beleuchtet kritisch, wie ein Postwachstumspfad im globalen Norden die wirtschaftlichen Abhängigkeiten des globalen Südens beeinflusst.*
+
+- Raworth, K. (2018). *Die Donut-Ökonomie*. Hanser.
+  - *Praktisches Rahmenmodell: Wirtschaft zwischen sozialem Fundament und planetaren Grenzen — visuell und zugänglich.*
+
+- Sen, A. (1999). *Development as Freedom*. Oxford UP.
+  - *Der Capability-Ansatz: Wohlstand ist nicht Geld, sondern reale Verwirklichungschancen — das normative Fundament neben dem Wachstum.*
+
+- Coyle, D. (2025). *The Measure of Progress: Counting What Really Matters*. Cambridge UP.
+  - *Warum das BIP für eine Digitalwirtschaft mit unsichtbaren Werten nicht mehr taugt — und was stattdessen zählen sollte.*
+
+
+# Anhang
+
+## Das BIP
+
 :::: {.columns}
 ::: {.column width="50%"}
 **BIP misst…**
 
-- Gesamtwert aller produzierten Güter & Dienstleistungen
-- Wachstum = Veränderung des realen BIP pro Kopf
-- Standardmaß in Politik & Medien
+- Marktwert aller **End**güter und -dienstleistungen im Inland
+- Vorleistungen werden abgezogen (keine Doppelzählung)
+- *Inlandsprinzip*: alle im Inland produzierten Güter, unabhängig von der Nationalität der Produzierenden
+- Auch nicht gehandelte Güter: Eigeninvestitionen, Eigenverbrauch
+- Standardmaß für Wachstum: Veränderung des realen BIP pro Kopf
 :::
 
 ::: {.column width="50%"}
 **BIP misst *nicht*…**
 
 - Unbezahlte Care- und Hausarbeit
+- Ehrenamtliche & freiwillige Arbeit
 - Verteilung von Einkommen und Vermögen
 - Ökologische Schäden & Ressourcenverzehr
 - Lebenszufriedenheit und Gesundheit
@@ -124,179 +659,11 @@ Aufbau
 
 ---
 
-## Argumente für Wachstum {.pro-slide}
+
+## Das verbleibende CO₂-Budget ist sehr klein {.contra-slide}
 
 ::: section-label
-02 · Pro-Wachstum
-:::
-
-::: {.rule style="background:var(--pro);"}
-:::
-
-*Zentrale Frage: Was leistet Wachstum?*
-
-::: arg-card
-**Materieller Wohlstand & Lebenserwartung**
-
-Mehr Produktion pro Kopf korreliert international eng mit besserer Grundversorgung und höherer Lebenserwartung — besonders bei niedrigen und mittleren Einkommen.
-
-[Evidenz: stark]{.badge .badge-stark}
-:::
-
-::: arg-card
-**Beschäftigung (Okuns Gesetz)**
-
-Wirtschaftswachstum senkt Arbeitslosigkeit im Schnitt. Der Zusammenhang wird für OECD- und Euroraumländer weiter bestätigt — mit länderspezifischer Stärke.
-
-[Evidenz: solide]{.badge .badge-solide}
-:::
-
-::: arg-card
-**Sozialstaat finanzieren**
-
-Wachstum verbreitert die Steuer- und Beitragsbasis und entlastet so die Finanzierung von Rente, Gesundheit und Pflege in alternden Gesellschaften.
-
-[Evidenz: solide (kein Ersatz für Reformen)]{.badge .badge-solide}
-:::
-
----
-
-## Argumente für Wachstum (2) {.pro-slide}
-
-::: section-label
-02 · Pro-Wachstum
-:::
-
-::: {.rule style="background:var(--pro);"}
-:::
-
-::: arg-card
-**Innovation & Produktivität**
-
-Wachstumserwartungen fördern Investitionen in Forschung, Technik und Produktivität. Der positive Zusammenhang von F&E und Wachstum ist empirisch gut belegt.
-
-[Evidenz: solide]{.badge .badge-solide}
-:::
-
-::: arg-card
-**Politische Stabilität**
-
-Mit Wachstum lassen sich Verteilungskonflikte leichter entschärfen, weil Zuwächse verteilt werden können, ohne jemandem direkt etwas wegzunehmen.
-
-[Evidenz: plausibel, historisch beobachtbar]{.badge .badge-umstr}
-:::
-
----
-
-## Argumente gegen Wachstum {.contra-slide}
-
-::: section-label
-03 · Contra-Wachstum
-:::
-
-::: rule
-:::
-
-*Zentrale Frage: Was kostet Wachstum — und was übersieht es?*
-
-::: arg-card
-**Ökologische Grenzen**
-
-Unendliches Wachstum auf einem endlichen Planeten ist biophysisch problematisch. Absolute Entkopplung von BIP, CO₂ und Materialverbrauch gelingt bisher nicht schnell genug.
-
-[Evidenz: stark (Diagnose); politische Schlussfolgerung umstritten]{.badge .badge-stark}
-:::
-
-::: arg-card
-**BIP ≠ Wohlbefinden**
-
-Ab hohem Einkommensniveau steigt Lebensqualität nicht automatisch mit weiterem BIP-Wachstum (Easterlin-Paradoxon). Wohlbefinden hängt auch von Gleichheit, Zeitwohlstand und Institutionen ab.
-
-[Evidenz: solide (mit abnehmendem Grenznutzen)]{.badge .badge-solide}
-:::
-
----
-
-## Argumente gegen Wachstum (2) {.contra-slide}
-
-::: section-label
-03 · Contra-Wachstum
-:::
-
-::: rule
-:::
-
-::: arg-card
-**Ungleichheit & „Trickle-down"**
-
-Wachstumserträge kommen oft überproportional bei oberen Einkommens- und Vermögensgruppen an. Die Wirtschaft kann wachsen, ohne dass viele Menschen deutlich profitieren.
-
-[Evidenz: solide als Verteilungskritik]{.badge .badge-solide}
-:::
-
-::: arg-card
-**Unsichtbare Care-Arbeit**
-
-Das BIP erfasst unbezahlte Sorge-, Haus- und Reproduktionsarbeit kaum und unterschätzt damit gesellschaftlich notwendige Arbeit erheblich.
-
-[Evidenz: stark als Messkritik]{.badge .badge-stark}
-:::
-
-::: arg-card
-**Nord-Süd-Ungleichheit**
-
-Wachstum im globalen Norden beruht häufig auf Rohstoffentnahme und Externalisierung von Umweltkosten — ungleiche Machtverhältnisse im Weltsystem.
-
-[Evidenz: solide als Strukturkritik]{.badge .badge-solide}
-:::
-
----
-
-## BIP und Emissionen: eine hartnäckige Kopplung
-
-::: section-label
-03 · Contra-Wachstum — Evidenz
-:::
-
-::: rule
-:::
-
-:::: {.columns}
-::: {.column width="48%"}
-**Starke Korrelation zwischen BIP und Verbrauch**
-
-::: chart-wrap
-![](img/Korrelation-MaterialCO2GDP.png){width="100%"}
-
-::: chart-note
-Quelle: IEA · Gräbner-Radkowitsch (2024)
-:::
-:::
-:::
-
-::: {.column width="52%"}
-**Absolute Entkopplung bei CO₂ möglich — aber konsumbasiert geringer**
-
-::: chart-wrap
-![](img/co2-emissions-and-gdp-per-capita.png){width="100%"}
-
-::: chart-note
-Quelle: Our World in Data · Eurostat, OECD, IMF, World Bank (2026) · CC BY
-:::
-:::
-:::
-::::
-
-::: {.fragment}
-*Zentrale offene Frage: Ist Entkopplung überall und schnell genug möglich?*
-:::
-
----
-
-## Das verbleibende CO₂-Budget ist sehr klein
-
-::: section-label
-03 · Contra-Wachstum — Evidenz
+03 · Contra-Wachstum · Ökologische Grenzen — Evidenz
 :::
 
 ::: rule
@@ -314,29 +681,29 @@ Quelle: World Inequality Report 2022 (Chancel et al.)
 :::
 
 ::: {.column width="45%"}
-Das historisch emittierte CO₂ übersteigt das verbleibende Budget für 1,5°C um das **8-fache**.
 
-::: arg-card
-Selbst wenn Entkopplung bei CO₂ gelingt: die Geschwindigkeit muss dramatisch höher sein als bisher beobachtet.
-
-[Kernargument der Contra-Seite]{.badge .badge-stark}
-:::
-
-::: arg-card
-Zugleich: reiche Länder haben historisch überproportional emittiert — das ist auch eine Verteilungsfrage.
+::: {.fragment .arg-card}
+Reiche Länder haben historisch überproportional emittiert $\rightarrow$ Gerechtigkeitsfrage.
 
 [Nord-Süd-Dimension]{.badge .badge-solide}
 :::
+
+::: {.fragment .arg-card}
+Selbst wenn Entkopplung gelingt: Geschwindigkeit muss dramatisch steigen.
+
+[Kernargument]{.badge .badge-stark}
+:::
+
+::: {.fragment .arg-card}
+Gilt aber auch für politische Prozesse hin zu einer möglichen Postwachstumsgesellschaft!
+:::
+
 :::
 ::::
 
 ---
 
-## Technologischer Wandel kann sehr schnell gehen
-
-::: section-label
-03 · Contra-Wachstum — Gegenargument
-:::
+## Aber: Technologischer Wandel kann sehr schnell gehen {.contra-slide}
 
 ::: rule
 :::
@@ -344,216 +711,327 @@ Zugleich: reiche Länder haben historisch überproportional emittiert — das is
 :::: {.columns}
 ::: {.column width="55%"}
 ::: chart-wrap
-![Diffusion neuer Infrastrukturen](img/Breakthrough-Energy.png){width="100%"}
-
-::: chart-note
-Diffusion neuer Infrastrukturen · Quelle: The Breakthrough Effect (2023)
-:::
+![Diffusion neuer Infrastrukturen](img/Breakthrough-Energy.png){width="78%"}
 :::
 
 ::: chart-wrap
-![Diffusion neuer Konsumgüter](img/Breakthrough-Goods.png){width="100%"}
-
-::: chart-note
-Diffusion neuer Konsumgüter · Quelle: The Breakthrough Effect (2023)
-:::
+![Diffusion neuer Konsumgüter](img/Breakthrough-Goods.png){width="78%"}
 :::
 :::
 
 ::: {.column width="45%"}
-*„Im richtigen Umfeld kann eine Transformation sehr schnell gehen!"*
-
-::: arg-card
+::: {.fragment .arg-card}
 **Pro-Wachstum-Lesart**
 
-Historische S-Kurven zeigen: neue Technologien können innerhalb einer Generation zur Normalität werden. Erneuerbare und Elektromobilität folgen demselben Muster.
+Historische S-Kurven zeigen: neue Technologien können innerhalb einer Generation zur Normalität werden.
 
 [Basis für Grünes Wachstum]{.badge .badge-solide}
 :::
 
-::: arg-card
+::: {.fragment .arg-card}
 **Contra-Lesart**
 
-Frühere Transitionen *ergänzten* bestehenden Verbrauch, sie ersetzten ihn nicht. Die nötige Geschwindigkeit heute ist ohne historisches Vorbild — und das Carbon Budget läuft.
+Frühere Transitionen *ergänzten* bestehenden Verbrauch, sie ersetzten ihn nicht. Verteilungskonflike noch nie so virulent.
 
 [Offene Frage: schnell genug?]{.badge .badge-umstr}
 :::
 :::
 ::::
 
----
-
-## Wachstum ist nicht gleich Wachstum
-
-::: section-label
-04 · Globale Perspektive
+::: {.fragment .chart-note}
+*Technologiewandel und Suffizienz sind komplementär: Effizienz verringert den Transformationsbedarf — zusammen realistischer als jedes Instrument allein.*
 :::
 
-::: rule
+---
+
+---
+
+## Innovation & Produktivität {.pro-slide}
+
+::: section-label
+02 · Pro-Wachstum · Argument 3
+:::
+
+::: {.rule style="background:var(--pro);"}
 :::
 
 :::: {.columns}
-::: {.column width="50%"}
-**Globaler Süden**
+::: {.column width="55%"}
+::: chart-wrap
+![Forschende und BIP](img/gdp-researchers.png){width="100%"}
 
-- Wachstum oft *notwendig* für Grundversorgung, Gesundheit, Bildung
-- Pro-Wachstum-Evidenz hier am stärksten
-- Aber: Abhängigkeit von Rohstoffexporten und externen Kapitalflüssen
+::: chart-note
+Quelle: Our World in Data (2023) · UNESCO / World Bank
+:::
+:::
 :::
 
-::: {.column width="50%"}
-**Globaler Norden**
+::: {.column width="45%"}
+::: arg-card
+Wachstumserwartungen fördern Investitionen in Forschung und Entwicklung. 
 
-- Grundbedürfnisse weitgehend gesichert — abnehmender Grenznutzen
-- Ökologische Kosten überproportional hoch
-- Sozialstaat-Argument hier besonders relevant
+[Evidenz: solide (Zusammenhang)]{.badge .badge-solide}
+:::
+
+::: {.fragment .arg-card}
+**Einschränkung:** Kausalitätsrichtung unklar — wohlhabende Länder können sich schlicht mehr F&E leisten (umgekehrte Kausalität).
+
+[Romer 1990 vs. Solow-Residuum]{.badge .badge-umstr}
+:::
 :::
 ::::
 
-::: rule-full
+---
+
+## Politische Instrumente: Suffizienz mit im Maßnahmenkoffer
+
+::: rule
 :::
 
-::: fragment
-*Dieselben Argumente tragen unterschiedlich schwer — je nach Ausgangsniveau und Kontext.*
+:::: {.columns}
+::: {.column width="50%"}
+**Preise richtig setzen**
+
+- CO₂-Preis nur mit Rückverteilung — sonst regressiv
+- Klimabonus AT: 98% automatisch, regional gestaffelt
+- Dienstwagenprivileg: −690 €/t CO₂ — 16× CO₂-Preis (Ariadne 2024)
+- Pendler-/Dieselprivileg: ~€20 Mrd./Jahr — reformierbar
+:::
+
+::: {.column width="50%"}
+**Nachfrage gestalten**
+
+- CLEVER-Szenario: ≥40% EU-Energiereduktion bis 2050 (Nature Comm. 2024)
+- Right to Repair: EU-Recht seit Juli 2024
+- Fossil-Werbeverbot: Amsterdam 2026, Spanien 2025
+:::
+
+::::
+
+::: notes
+**Zur Einordnung**
+Diese Maßnahmen sind wachstumsagnostisch — sie funktionieren unabhängig davon ob die Wirtschaft wächst oder schrumpft. Sie verbinden ökologische Wirkung mit sozialer Abfederung. Keine Parteiempfehlung — Frage ist: Was wäre mit den Zielen konsistent?
+
+**Preise richtig setzen**
+
+CO₂-Preis + Rückverteilung: Ohne Rückverteilung regressiv — ärmere Haushalte zahlen proportional mehr. RWI/FinanzArchiv: Per-capita Rückverteilung kehrt den Effekt vollständig um.
+
+Klimabonus Österreich: Seit Oktober 2022. Geografisch gestaffelt — schlechter ÖPNV = höhere Zahlung. 98% automatisch ausgezahlt. OECD 2024 nennt es explizit als Referenzmodell. Deutsches Klimageld nie umgesetzt — Ampel zerbrach vorher.
+
+Dienstwagenprivileg −690 €/t: Ariadne-Methodik (Kopernikus/DIW 2024) — Subvention wird in äquivalenten CO₂-Preis umgerechnet. Ergebnis: wirkt 16× stärker in die falsche Richtung als der CO₂-Preis in die richtige. Fiskalkosten ~6 Mrd. €/Jahr, begünstigt primär hohe Einkommen.
+
+Pendler-/Dieselprivileg: UBA identifiziert ~65 Mrd. €/Jahr umweltschädliche Subventionen gesamt. Dieselprivileg ~9,5 Mrd., Pendlerpauschale >5 Mrd. Ariadne-Äquivalent Pendlerpauschale: −70 bis −250 €/t CO₂. CDU/SPD haben Pendlerpauschale trotzdem erhöht — Kritik von DUH und Umweltökonomen.
+
+**Nachfrage gestalten**
+
+CLEVER-Szenario: Wuppertal Institut + Öko-Institut + 13 Partner, Nature Communications 2024. 50% EU-Endenergiereduktion bis 2050 — ≥40% davon allein durch Suffizienz, nicht Technologie. Ohne Suffizienz: CCS-Abhängigkeit oder massive Importabhängigkeit unvermeidbar.
+
+Right to Repair: EU-Richtlinie 2024/1799, in Kraft Juli 2024, Umsetzung bis Juli 2026. Gilt für Waschmaschinen, Kühlschränke, Smartphones, Tablets. Hersteller müssen Reparatur anbieten, 12 Monate Garantieverlängerung nach Reparatur. EU-Rat: vorzeitige Entsorgung verursacht 261 Mio. t CO₂/Jahr in der EU.
+
+Fossil-Werbeverbot: Den Haag Januar 2024 (erste Stadt weltweit), Amsterdam Januar 2026, Spanien Gesetzentwurf Juni 2025. Nature Climate Change 2025 (19.000 Befragte, 13 EU-Länder): 46,6% dafür, 24,9% dagegen. Tobacco-Analogie: WHO-Rahmenkonvention dokumentiert — Werbeverbote senken Konsum und verschieben Normen.
 :::
 
 ---
 
-## Drei wissenschaftliche Schulen
+## Wachstum als Konfliktpuffer
 
 ::: section-label
-05 · Implikationen
+Anhang · Wachstumszwang
 :::
 
 ::: rule
 :::
 
 :::: {.columns}
-::: {.column width="33%"}
+::: {.column width="50%"}
+::: arg-card
+**Technisch: Umverteilung wäre möglich**
+
+- Top 10 % besitzen ~60 % des privaten Nettovermögens
+- Top 1 % besitzt ~ein Drittel — Vermögens-Gini: 0,76
+- Bildung, Pflege, Klima: ohne Lebensstandard-Verlust für Mehrheit finanzierbar
+- „Torte groß genug — anders schneiden reicht"
+
+[Boeckler-Institut · DIW · SVR 2024]{.badge .badge-solide}
+:::
+:::
+
+::: {.column width="50%"}
+::: arg-card
+**Politisch: Wachstum entschärft Konflikte**
+
+- Umverteilung erzeugt sichtbare Verlierer → starke Gegenmobilisierung
+- Wachstum = „alle können gewinnen" — kein expliziter Verzicht
+- Alterung erhöht Ausgabendruck strukturell (Rente, Pflege, Gesundheit)
+- Schuldenbremse begrenzt fiskalischen Spielraum
+- Diskursmacht: Wachstumsagenda dominiert Umverteilungsnarrativen
+
+[Binswanger 2006 · BpB 2025]{.badge .badge-umstr}
+:::
+:::
+::::
+
+::: notes
+**Kernbotschaft:**
+Deutschland hat genug Reichtum für viele gesellschaftliche Aufgaben ohne Wachstum — aber die Ungleichheit ist so hoch, dass politische Kämpfe um Umverteilung extrem hart wären. Das ist der eigentliche Wachstumszwang: nicht physisch oder ökonomisch, sondern politökonomisch.
+
+**Zahlen zur Ungleichheit:**
+Vermögens-Gini ~0,76 (einer der höchsten in der EU). Top 10 %: ~60 % des Nettovermögens; Top 1 %: ~33 %. Die untere Hälfte besitzt zusammen nur wenige Prozent. Quelle: Bundesbank HFCS, Boeckler-Institut.
+
+**Warum ist Wachstum politisch attraktiver?**
+1. Alle profitieren — niemand muss explizit abgeben. Konflikte werden in die Zukunft verschoben.
+2. Mächtige Akteure organisieren sich effektiv gegen Umverteilung.
+3. Selbst linke Parteien haben WählerInnen in der Mittelschicht, die Steuererhöhungen fürchten.
+
+**Für die Grünen:**
+Wachstumskritik ohne Umverteilungsantwort ist keine politische Strategie. Aber die Umverteilungsagenda adressiert mächtige Verlierer direkt — das muss man wollen und kommunizieren können.
+:::
+
+---
+
+## Der Wachstumszwang in Zahlen
+
+::: section-label
+Anhang · Wachstumszwang — Fiskalische Mechanik
+:::
+
+::: rule
+:::
+
+::: formula-box
+$$\Delta d \approx (r - g) \cdot d - s$$
+
+$d$ = Schuldenquote · $r$ = Realzins · $g$ = Wachstumsrate · $s$ = Primärsaldo (positiv = Überschuss)
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
 ::: {.school-card .school-pro}
-**Grünes Wachstum**
+**Szenario A: g = r = 1,5 %**
 
-Wachstum ist möglich und nötig — aber ökologisch transformiert. Entkopplung durch Technologie & CO₂-Bepreisung.
+$$\Delta d = (0{,}015 - 0{,}015) \cdot 0{,}64 - s = -s$$
 
-*OECD, Weltbank, viele Regierungen*
+- Zins- und Wachstumseffekt heben sich auf
+- Ausgeglichener Haushalt ($s = 0$): $\Delta d = 0$
+- Keine Kürzungen, keine Steuererhöhungen nötig
+
+[Wachstumsagenda klappt]{.badge .badge-solide}
 :::
 :::
 
-::: {.column width="33%"}
-::: {.school-card .school-mid}
-**Post-Growth**
-
-Wachstum nicht als Ziel, aber kein aktiver Abbau. Fokus auf Wohlstandsmaße jenseits des BIP.
-
-*Raworth, Jackson, Teile der EU-Forschung*
-:::
-:::
-
-::: {.column width="33%"}
+::: {.column width="50%"}
 ::: {.school-card .school-contra}
-**Degrowth**
+**Szenario B: g = 0 %, r = 1,5 %**
 
-Aktive Reduktion des materiellen Durchsatzes in reichen Ländern als ökologische Notwendigkeit.
+$$\Delta d = 0{,}015 \cdot 0{,}64 - s \approx 0{,}96\,\% - s$$
 
-*Hickel, Kallis, Schmelzer*
+- Schuldenquote steigt automatisch ~1 % BIP/Jahr
+- Stabiler Haushalt erfordert: $s \approx +0{,}96\,\%$
+- **~41 Mrd. €/Jahr Spardruck** — ohne Wachstum, jedes Jahr
+
+[Stagnation erzwingt harte Entscheidungen]{.badge .badge-umstr}
 :::
 :::
 ::::
 
-::: rule-full
+::: chart-note
+Deutschland 2024: BIP ~4.300 Mrd. € · Schuldenquote ~64 % · Realzins ~1,5 % (Schätzung) · Quellen: Destatis, Bundesbank
 :::
 
-::: fragment
-*Alle drei Schulen sind in der Wissenschaft vertreten — die Wahl ist nicht nur empirisch, sondern auch normativ.*
-:::
+::: notes
+**Erklärung der Formel Δd ≈ (r − g) · d − s:**
+- d: Schuldenquote, aktuell ~64 % (Maastricht-Grenze: 60 %)
+- r: Realzins ≈ Nominalzins minus Inflation; konservativ 1,5 % angesetzt
+- g: Reales BIP-Wachstum. Deutschland 2023/24: nahe 0 %
+- s: Primärsaldo = Einnahmen minus Ausgaben ohne Zinsen. Positiv = Überschuss
 
----
+**Szenario A — Wachstumswelt:**
+Wenn g = r: BIP wächst genauso schnell wie die Zinslast. Formel → Δd = −s. Bei ausgeglichenem Haushalt (s = 0): Δd = 0. Kein politischer Druck — Zinseffekt ist neutralisiert.
 
-## Suffizienz: Verbrauch mitdenken
+**Szenario B — Stagnationswelt:**
+0,015 × 0,64 = 0,0096. Die Schuldenquote steigt automatisch um ~1 Prozentpunkt BIP/Jahr. Um das zu verhindern: 41 Mrd. € entspricht etwa dem gesamten Bundesbildungsbudget.
 
-::: section-label
-05 · Implikationen — Suffizienz
-:::
+**Die 41 Mrd. kommen von:**
+1. Ausgaben kürzen → trifft meist Soziales, Bildung, Infrastruktur
+2. Steuern erhöhen → trifft Unternehmen, Mittelschicht oder Vermögende
+Beide = politische Verteilungskämpfe. g erhöhen erscheint einfacher.
 
-::: rule
-:::
-
-Effizienz und erneuerbare Energien allein reichen nicht — warum Verbrauchsreduktion politisch relevant bleibt:
-
-::: suf-card
-**Sanierung statt nur Neubau fördern**
-
-Der Gebäudebestand verursacht rund 35% der EU-Energienachfrage. Förderprogramme, die Sanierung gleichwertig zum Neubau behandeln, senken Verbrauch ohne Verzicht auf Wohnkomfort — und schaffen Arbeitsplätze im Handwerk.
-:::
-
-::: suf-card
-**Flächenverbrauch der Erneuerbaren mitdenken**
-
-„Kein CO₂-Ausstoß" heißt nicht „keine ökologischen Kosten": Solar- und Windenergie benötigen erhebliche Flächen — auf Kosten von Biodiversität und Landwirtschaft. Verbrauchsreduktion verkleinert den nötigen Ausbau und schont damit Ökosysteme.
-:::
-
-::: suf-card
-**Was folgt daraus?**
-
-Grünes Wachstum und Suffizienz schließen sich nicht aus. Aber ohne Nachfrageseite bleibt selbst ambitionierte Energiepolitik hinter den Zielen zurück.
+**Modellgrenzen:** r ist nicht fest (Zentralbankpolitik). Schuldenbremse schränkt Defizitfinanzierung zusätzlich ein. Gilt für Deutschland nicht wie für USA/UK (keine eigene Zentralbank).
 :::
 
 ---
 
-## Was bleibt offen?
+## Alternativpfad ohne Wachstumszwang
 
 ::: section-label
-06 · Ausblick
+Anhang · Wachstumszwang — Alternativen
 :::
 
 ::: rule
 :::
 
 :::: {.columns}
-::: {.column width="50%"}
-**Empirisch offen**
+::: {.column width="33%"}
+::: arg-card
+**① Steuern umbauen**
 
-- Gelingt absolute Entkopplung schnell genug?
-- Wie stark ist der Grenznutzen von Wachstum bei hohem Einkommen?
-- Welche Wachstumstypen reduzieren Ungleichheit?
+- Vermögenssteuer 1 % auf >1 Mio. €: ~25–30 Mrd. €/Jahr
+- Effektive Erbschaft- und Grundsteuer
+- ~65 Mrd. €/Jahr umweltschädliche Subventionen abbauen (UBA)
+- Untere 70–80 %: rechnerisch ohne Mehrbelastung finanzierbar
+:::
 :::
 
-::: {.column width="50%"}
-**Normativ offen**
+::: {.column width="33%"}
+::: arg-card
+**② Ausgaben priorisieren**
 
-- Wie viel ökologisches Risiko ist vertretbar?
-- Wessen Wohlstand zählt — und über welchen Zeitraum?
-- Was schulden reiche Länder dem globalen Süden?
+- Militär & klimaschädliche Subventionen kürzen
+- Bildung, Pflege, Klima vorziehen
+- Öffentliche vor private Güter stellen
+- Neue Aufgaben ohne Wachstumsdividende finanzierbar
+:::
+:::
+
+::: {.column width="33%"}
+::: arg-card
+**③ Narrativ wechseln**
+
+- Weg von: „alle gewinnen mehr"
+- Hin zu: „gute öffentliche Leistungen sichern"
+- Ehrlichkeit über Verteilung als politische Wahl
+- Skandinavien: höhere Steuern, höhere Zufriedenheit
+:::
 :::
 ::::
 
-::: rule-full
+::: {.fragment .formula-box}
+**Die Hürden sind politisch und machtstrukturell — nicht rechnerisch.**
+
+Wer adressiert werden muss: Gewinnergruppen, die vom Status quo profitieren.
 :::
 
-::: {.formula-box .fragment}
-Die **Pro-Seite** fragt: *Was leistet Wachstum?*
+::: notes
+**Kernbotschaft:**
+Der Alternativpfad ist ökonomisch konsistent — aber politisch außerordentlich schwer. Postwachstum ohne Umverteilungsagenda ist kein reales politisches Programm.
 
-Die **Contra-Seite** fragt: *Was kostet Wachstum — und was übersieht es?*
+**① Steuern — Größenordnungen:**
+- Vermögenssteuer 1 % auf Nettovermögen >1 Mio. €: 25–30 Mrd. €/Jahr (DIW 2023)
+- Erbschaftsteuerreform (schließt Unternehmens-Ausnahmen): weitere 5–10 Mrd. €
+- Abbau Ehegattensplitting: ~6 Mrd. € + Erwerbsanreize für Zweitverdiener
+- UBA-Subventionsabbau: ~65 Mrd. €/Jahr Potenzial insgesamt
+Zusammen: deutlich mehr als die 41 Mrd., die das r-g-Modell bei Stagnation verlangt.
 
-Beide Fragen sind wissenschaftlich legitim.
+**② Ausgaben — konkrete Konflikte:**
+- Bundeswehr-Sondervermögen: ~20 Mrd. €/Jahr bis 2028
+- Pflege: strukturelles Defizit ~5 Mrd./Jahr und wachsend
+- Klimainvestitionen: KfW-Bedarf ~30–40 Mrd./Jahr — Schuldenbremse blockiert
+Framing: „Prioritätensetzung" klingt technisch, ist eminent politisch.
+
+**③ Narrativ — warum schwer:**
+Das ist die härteste Anforderung. Gegen jahrzehntelange Gewöhnung. Das grüne Kernversprechen wäre eigentlich: Wohlstand durch gute öffentliche Dienste statt durch privaten Konsum. Belegt durch Nature-Studie 2024: WählerInnen akzeptieren Suffizienz, wenn Fairness und soziale Absicherung garantiert sind.
+
+**Koalitionsfrage:**
+Welche gesellschaftlichen Kräfte würden diesen Pfad unterstützen? Gewerkschaften (Arbeitszeitverkürzung), Wohlfahrtsverbände, Mieterorganisationen, Pflegeverbände, Klimabewegung. Das erfordert politische Organisationsarbeit — nicht nur Sachzwangkommunikation.
 :::
 
----
-
-## {.schluss-slide}
-
-::: section-label
-Fazit
-:::
-
-# Kein einfaches Ja oder Nein. {.title-huge}
-
-::: rule
-:::
-
-Wachstum kann Wohlstand schaffen — und Wohlstand zerstören. Die Wissenschaft liefert Evidenz für beides. Welche Schlüsse wir daraus ziehen, ist eine gesellschaftliche Entscheidung.
-
-::: rule-full
-:::
-
-*Fragen & Diskussion*
