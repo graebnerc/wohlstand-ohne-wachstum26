@@ -11,7 +11,7 @@ im Rahmen des Formats **„Listen to the Science"**
 
 Die fertig gerenderten Slides sind als selbstständige HTML-Datei verfügbar:
 
-👉 **[Slides öffnen]([https://claudius-graebner.github.io/26-05-GrueneWachstum/wachstum.html](https://graebnerc.github.io/wohlstand-ohne-wachstum26/wachstum.html#/title-slide))**
+👉 **[Slides öffnen](https://graebnerc.github.io/wohlstand-ohne-wachstum26/wachstum.html)**
 
 **Navigation:**
 - `→` / `Leertaste` — nächste Folie
