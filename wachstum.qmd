@@ -128,12 +128,22 @@ Aufbau
 - **Bruttoinlandsprodukt (BIP)**: der monetäre Wert aller Endgüter und Dienstleistungen im Inland
 :::
 
+::: {.fragment .arg-card}
+**Wichtige aber weniger bekannte Einschränkung:**
+
+- BIP-Wachstum pro Kopf ist ein gewichteter Durchschnitt
+- Bildet Einkommensgewinne der Wohlhabenden überproportional ab
+
+[Schulte, ifso 2023]{.badge .badge-umstr}
+:::
+
 ::: {.fragment .formula-box}
 **Zwei Ebenen der Kritik:**
 
 - **BIP-Kritik** = Messproblem: Care-Arbeit, Umweltschäden u.a. fehlen im Maß.
 - **Wachstumskritik** = Fundamentalkritik: Selbst ein perfektes Öko-BIP stößt auf einem endlichen Planeten an materielle Grenzen.
 :::
+
 
 ---
 
@@ -150,34 +160,18 @@ Aufbau
 ::: {.rule style="background:var(--pro);"}
 :::
 
-:::: {.columns}
-::: {.column width="55%"}
-::: chart-wrap
-![BIP und menschliche Entwicklung](img/gdp-hdi.png){width="100%"}
 
-::: chart-note
-Quelle: Our World in Data (2023) · UNDP
-:::
-:::
-:::
+![BIP und menschliche Entwicklung](img/gdp-hdi.png){width="80%"}
 
-::: {.column width="45%"}
-::: arg-card
+
+::: {.arg-card .fragment}
 Mehr Produktion pro Kopf _korreliert_ mit besserer Grundversorgung — besonders bei niedrigen und mittleren Einkommen.
 
 [Evidenz: stark]{.badge .badge-stark}
 :::
 
-::: {.fragment .arg-card}
-**Einschränkung:**
 
-- BIP-Wachstum pro Kopf ist ein gewichteter Durchschnitt
-- Bildet Einkommensgewinne der Wohlhabenden überproportional ab
 
-[Schulte, ifso 2023]{.badge .badge-umstr}
-:::
-:::
-::::
 
 ---
 
@@ -190,31 +184,22 @@ Mehr Produktion pro Kopf _korreliert_ mit besserer Grundversorgung — besonders
 ::: {.rule style="background:var(--pro);"}
 :::
 
-:::: {.columns}
-::: {.column width="55%"}
-::: chart-wrap
-![BIP und Lebenszufriedenheit](img/gdp-happiness.png){width="100%"}
 
-::: chart-note
-Quelle: Our World in Data (2024) · Gallup / Wellbeing Research Centre
-:::
-:::
-:::
+![BIP und Lebenszufriedenheit](img/gdp-happiness.png){width="80%"}
 
-::: {.column width="45%"}
-::: arg-card
+
+::: {.fragment .arg-card}
 Höheres BIP pro Kopf $\leftrightarrow$ höhere Lebenszufriedenheit.
 
 [Evidenz: solide]{.badge .badge-solide}
 :::
 
 ::: {.fragment .arg-card}
-**Einschränkung:** Große Streuung,  Faktoren jenseits des BIP (Ungleichheit, soziale Sicherheit, Institutionen) zweifellos relevant. 
+**Einschränkung:** Kausalität zwischen Glück und Einkommen empirisch umstritten.
 
-[Easterlin-Paradoxon, Deaton 2013]{.badge .badge-umstr}
+[Killingsworth el al. (2023)]{.badge .badge-umstr}
 :::
-:::
-::::
+
 
 ---
 
@@ -249,11 +234,11 @@ Wachstum $\uparrow \rightarrow$ Steuer- und Beitragsbasis $\uparrow$
 [Evidenz: solide (kein Ersatz für Reformen)]{.badge .badge-solide}
 
 ::: {.fragment data-fragment-index="2"}
-- Wachstumsunabhängige(re) Alternativen: Vermögenssteuern, Erbschaftsteuern, Wertschöpfungsabgabe, Arbeitszeitverkürzung.
+- Wachstumsunabhängige(re) Alternativen: Vermögenssteuern, Erbschaftsteuern, Wertschöpfungsabgabe, ...
 :::
 
 ::: {.fragment data-fragment-index="3"}
-- Zeitpunkt: verteilungspolitische Dimension des Konflikts
+- Verdeutlicht: verteilungspolitische Dimension
 :::
 
 :::
@@ -288,32 +273,16 @@ Daten Deutschland: Destatis Sozialleistungen · BMAS Sozialbudget · OECD SOCX D
 ::: rule
 :::
 
-:::: {.columns}
-::: {.column width="60%"}
-::: chart-wrap
+
 ![Lebenszufriedenheit nach Ländern](img/whr-figure.png){width="100%"}
 
-::: chart-note
-World Happiness Report 2026 · Gallup World Poll
-:::
-:::
-:::
-
-::: {.column width="40%"}
-
-::: arg-card
-Wohlbefinden hängt auch von Gleichheit, Sozialsystemen und Institutionen ab.
-
-[Evidenz: solide]{.badge .badge-solide}
-:::
 
 ::: {.fragment .arg-card}
-**Einschränkung:** Zusammenhang zwischen Glück und Einkommen empirisch umstritten.
+Wohlbefinden hängt auch von Gleichheit, Sozialsystemen und Institutionen ab.
 
-[Killingsworth el al. (2023)]{.badge .badge-umstr}
+[Evidenz: solide]{.badge .badge-umstr}
 :::
-:::
-::::
+
 
 ---
 
@@ -350,7 +319,7 @@ Wohlbefinden hängt auch von Gleichheit, Sozialsystemen und Institutionen ab.
 * Ab bestimmtem Umfang sinkt das Wohlbefinden $\rightarrow$ Wachstum wird zum Selbstzweck
 * Beispiel: Abschaffung von Feiertagen als Wachstums-Booster
 
-[Zeitwohlstand-Forschung · Postwachstum-Kritik]{.badge .badge-umstr}
+[Zeitwohlstand-Forschung]{.badge .badge-stark}
 :::
 
 ---
@@ -383,7 +352,7 @@ Quelle: IEA · Gräbner-Radkowitsch (2024)
 ::::
 
 ::: {.fragment}
-*Zentrale offene Frage: Ist Entkopplung - oder Wachstumsabkehr - überall und schnell genug möglich?*
+*Zentrale offene Frage: Ist Entkopplung überall und schnell genug möglich?*
 :::
 
 ---
@@ -393,7 +362,7 @@ Quelle: IEA · Gräbner-Radkowitsch (2024)
 
 ---
 
-## Suffizienz: Verbrauch mitdenken
+## Ganz ohne Suffizienz wird es nicht gehen
 
 ::: section-label
 04 · Diskussion — Suffizienz
@@ -487,22 +456,26 @@ Aktive Reduktion des materiellen Durchsatzes in reichen Ländern als ökologisch
 . . .
 
 **Ökonomische Zwänge**
+[Teils kontrovers]{.badge .badge-umstr}
 
+:::{.incremental}
 - **Produktivitätsfalle:** Technischer Fortschritt, kein Wachstum $\rightarrow$ weniger Arbeit
 - **Institutionen-Design:** Gerade bei alternender Gesellschaft brauchen Sicherungssysteme Zuschüsse
-- **Profitlogik:** Unternehmen mit geringerem Gewinn gehen im Wettbewerb unter
-- **Statuslogik:** Menschen motiviert relativ aufzusteigen $\rightarrow$ resultiert im Kollektiven Wachstumszwang
+- **Profit- und Statuslogik:** Unternehmen mit geringerem Gewinn gehen im Wettbewerb unter, Menschen motiviert relativ aufzusteigen 
+:::
 
 . . .
 
 **Politische 'Zwänge'**
+[Recht breit akzeptiert]{.badge .badge-solide}
 
+:::{.incremental}
 - Wachstum **vertagt** Verteilungskonflikte — alle können gewinnen
 - Stagnation macht Umverteilung **zwingend** — jemand muss abgeben
-- Schrumpfen **verschärft** beides — weniger Masse, mehr Konflikt
+:::
 
 ::: {.fragment .formula-box}
-→ **Wachstumskritik ist immer auch Verteilungspolitik**
+→ **Wachstumspolitik ist immer auch Verteilungspolitik**
 :::
 
 ::: rule-full
@@ -510,47 +483,6 @@ Aktive Reduktion des materiellen Durchsatzes in reichen Ländern als ökologisch
 
 ---
 
-
-## Was bleibt offen?
-
-::: section-label
-06 · Ausblick
-:::
-
-::: rule
-:::
-
-:::: {.columns}
-::: {.column width="50%"}
-**Empirisch offen**
-
-- Wie wird Entkopplungsgeschwindigkeit maximiert?
-- Wie groß ist der Grenznutzen von Wachstum bei hohem Einkommen?
-- Welche Wachstumsmodelle reduzieren Ungleichheit?
-:::
-
-::: {.column width="50%"}
-**Normativ offen**
-
-- Wie viel ökologisches Risiko ist vertretbar?
-- Wessen Wohlstand zählt — und über welchen Zeitraum?
-- Was schulden reiche Länder dem globalen Süden?
-- Welche Maßnahmen lassen sich schnell genug umsetzen / "erzwingen" / "erkämpfen"?
-:::
-::::
-
-::: rule-full
-:::
-
-::: {.formula-box .fragment}
-Die **Pro-Seite** fragt: *Was leistet Wachstum?*
-
-Die **Contra-Seite** fragt: *Was kostet Wachstum — und was übersieht es?*
-
-Beide Fragen wissenschaftlich legitim $\rightarrow$ die Schlussfolgerungen daraus sind politisch.
-:::
-
----
 
 ## {.schluss-slide}
 
@@ -625,6 +557,48 @@ Fazit
 
 
 # Anhang
+
+## Was bleibt offen?
+
+::: section-label
+06 · Ausblick
+:::
+
+::: rule
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+**Empirisch offen**
+
+- Wie wird Entkopplungsgeschwindigkeit maximiert?
+- Wie groß ist der Grenznutzen von Wachstum bei hohem Einkommen?
+- Welche Wachstumsmodelle reduzieren Ungleichheit?
+- Interdependenz zwischen Globalem Süden und Norden
+:::
+
+::: {.column width="50%"}
+**Normativ offen**
+
+- Wie viel ökologisches Risiko ist vertretbar?
+- Wessen Wohlstand zählt — und über welchen Zeitraum?
+- Was schulden reiche Länder dem globalen Süden?
+- Welche Maßnahmen lassen sich schnell genug umsetzen / "erzwingen" / "erkämpfen"?
+:::
+::::
+
+::: rule-full
+:::
+
+::: {.formula-box .fragment}
+Die **Pro-Seite** fragt: *Was leistet Wachstum?*
+
+Die **Contra-Seite** fragt: *Was kostet Wachstum — und was übersieht es?*
+
+Beide Fragen wissenschaftlich legitim $\rightarrow$ die Schlussfolgerungen daraus sind politisch.
+:::
+
+---
 
 ## Das BIP
 
@@ -755,16 +729,7 @@ Frühere Transitionen *ergänzten* bestehenden Verbrauch, sie ersetzten ihn nich
 ::: {.rule style="background:var(--pro);"}
 :::
 
-:::: {.columns}
-::: {.column width="55%"}
-::: chart-wrap
-![Forschende und BIP](img/gdp-researchers.png){width="100%"}
-
-::: chart-note
-Quelle: Our World in Data (2023) · UNESCO / World Bank
-:::
-:::
-:::
+![Forschende und BIP](img/gdp-researchers.png){width="80%"}
 
 ::: {.column width="45%"}
 ::: arg-card
@@ -779,7 +744,6 @@ Wachstumserwartungen fördern Investitionen in Forschung und Entwicklung.
 [Romer 1990 vs. Solow-Residuum]{.badge .badge-umstr}
 :::
 :::
-::::
 
 ---
 

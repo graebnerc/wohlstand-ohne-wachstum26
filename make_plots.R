@@ -102,7 +102,7 @@ p_hdi <- ggplot(df_hdi |> filter(!ist_de),
   ) +
   theme_wachstum() +
   guides(color = guide_legend(override.aes = list(size = 3, alpha = 1),
-                              ncol = 2))
+                              ncol = 1))
 
 ggsave("img/gdp-hdi.png", p_hdi, width = 6.5, height = 4.6, dpi = 150, bg = cream)
 message("Gespeichert: img/gdp-hdi.png")
@@ -143,7 +143,7 @@ p_happiness <- ggplot(df_h |> filter(!ist_de),
   ) +
   theme_wachstum() +
   guides(color = guide_legend(override.aes = list(size = 3, alpha = 1),
-                              ncol = 2))
+                              ncol = 1))
 
 ggsave("img/gdp-happiness.png", p_happiness, width = 6.5, height = 4.6, dpi = 150, bg = cream)
 message("Gespeichert: img/gdp-happiness.png")
@@ -187,7 +187,7 @@ p_research <- ggplot(df_r |> filter(!ist_de),
   ) +
   theme_wachstum() +
   guides(color = guide_legend(override.aes = list(size = 3, alpha = 1),
-                              ncol = 2))
+                              ncol = 1))
 
 ggsave("img/gdp-researchers.png", p_research, width = 6.5, height = 4.6, dpi = 150, bg = cream)
 message("Gespeichert: img/gdp-researchers.png")
