@@ -11,21 +11,25 @@ im Rahmen des Formats **„Listen to the Science"**
 
 Die fertig gerenderten Slides sind als selbstständige HTML-Datei verfügbar:
 
-👉 **[Slides öffnen](https://claudius-graebner.github.io/26-05-GrueneWachstum/wachstum.html)**
-*(Link wird nach Aktivierung von GitHub Pages aktiv — siehe unten)*
+👉 **[Slides öffnen](https://graebnerc.github.io/wohlstand-ohne-wachstum26/wachstum.html)**
 
 **Navigation:**
 - `→` / `Leertaste` — nächste Folie
 - `←` — vorherige Folie
 - `F` — Vollbild
-- `S` — Speaker-Ansicht mit Notizen
 - `Esc` — Übersicht aller Folien
+
+**Export als PDF:**
+- Unten links auf das Hamburger-Menü (Menüsymbol mit drei waagerechten Linien: ☰) klicken
+- Klicke oben links auf "Tools"
+- Dann auf "PDF EXPORT MODE"
+- Die dadurch aufgerufene Seite kannst du drucken und dann dann als Drucker "PDF Export" (o.ä.) auswählen
 
 ---
 
 ## Inhalt
 
-Der Vortrag gibt einen wissenschaftlich ausgewogenen Überblick über die Wachstumsdebatte — ohne eine Position zu bevorzugen, bis zum abschließenden Fazit.
+Der Vortrag gibt einen wissenschaftlich ausgewogenen Überblick über die Wachstumsdebatte — möglichst ohne eine Position zu bevorzugen, bis zum abschließenden Fazit.
 
 | Abschnitt | Inhalt |
 |-----------|--------|
@@ -78,19 +82,6 @@ Erzeugt `wachstum.html` — eine vollständig selbstständige Datei (alle Ressou
 │   └── WHR26_Data_Figure_2.1 (2).xlsx
 └── img/                  ← Abbildungen (generiert + extern)
 ```
-
----
-
-## GitHub Pages einrichten
-
-Um die Slides unter einem öffentlichen Link verfügbar zu machen:
-
-1. Repository auf GitHub erstellen und Code pushen
-2. In den Repository-Einstellungen: **Settings → Pages**
-3. Source: **Deploy from a branch** → `main` → `/ (root)`
-4. Nach wenigen Minuten ist die Präsentation erreichbar unter:  
-   `https://[username].github.io/[repo-name]/wachstum.html`
-5. Diesen Link oben im README anpassen
 
 ---
 
