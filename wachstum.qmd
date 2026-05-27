@@ -1,7 +1,10 @@
 ---
 title: "Wohlstand ohne Wachstum – Illusion oder Notwendigkeit?"
 subtitle: "Ein Überblick über den Stand der Wissenschaft und seine Grenzen"
-date: "2026"
+author: "Prof. Dr. Claudius Gräbner-Radkowitsch"
+institute: "Europa-Universität Flensburg · Institut für die Gesamtanalyse der Wirtschaft (JKU Linz)<br>Listen to the Science · Bündnis 90/Die Grünen SH"
+date: 2026-05-26
+date-format: "[26. Mai 2026]"
 format:
   revealjs:
     theme: [default, custom.scss]
@@ -109,8 +112,9 @@ Aufbau
 | 01 | Was messen wir? BIP als Konzept |
 | 02 | Pro-Wachstum — Argumente & Evidenz |
 | 03 | Contra-Wachstum — Argumente, Evidenz & Datenlage |
-| 04 | Diskussion: drei Schulen und der Wachstumszwang |
-| 05 | Offene Fragen & Ausblick |
+| 04 | Diskussion: drei Schulen, Suffizienz & Wachstumszwang |
+| 05 | Fazit |
+|  — | **Anhang**: vertiefendes Material (BIP · Ökologie · Suffizienz · Wachstumszwang) |
 
 ---
 
@@ -148,8 +152,6 @@ Aufbau
 ---
 
 # Argumente für Wachstum {.pro-slide}
-
----
 
 ## Materieller Wohlstand {.pro-slide}
 
@@ -262,8 +264,6 @@ Daten Deutschland: Destatis Sozialleistungen · BMAS Sozialbudget · OECD SOCX D
 
 # Argumente gegen Wachstum {.contra-slide}
 
----
-
 ## BIP ≠ Wohlbefinden {.contra-slide}
 
 ::: section-label
@@ -280,7 +280,7 @@ Daten Deutschland: Destatis Sozialleistungen · BMAS Sozialbudget · OECD SOCX D
 ::: {.fragment .arg-card}
 Wohlbefinden hängt auch von Gleichheit, Sozialsystemen und Institutionen ab.
 
-[Evidenz: solide]{.badge .badge-umstr}
+[Evidenz: solide]{.badge .badge-solide}
 :::
 
 
@@ -360,8 +360,6 @@ Quelle: IEA · Gräbner-Radkowitsch (2024)
 
 # Implikationen
 
----
-
 ## Ganz ohne Suffizienz wird es nicht gehen
 
 ::: section-label
@@ -376,21 +374,26 @@ Effizienz und erneuerbare Energien allein reichen nicht $\rightarrow$ Verbrauchs
 ::: {.fragment .suf-card}
 **Sanierung statt nur Neubau fördern**
 
-* Gebäudebestand: 35% der EU-Energienachfrage
-* Sanierung bei Förderprogrammen gleichwertig zum Neubau behandeln! 
+* Gebäudebestand: 35 % der EU-Energienachfrage
+* Sanierung bei Förderprogrammen gleichwertig zum Neubau behandeln
+* CLEVER: Tiefensanierungspflicht als Schlüsselhebel im Gebäudesektor
 :::
 
 ::: {.fragment .suf-card}
-**Flächenverbrauch der Erneuerbaren mitdenken**
+**Mobilität: weniger Kilometer, nicht nur sauberere Autos**
 
-* "Kein CO₂-Ausstoß" $\neq$ "keine ökologischen Kosten"
-* Solar- und Windenergie mit erheblichem Flächenbedarf $\rightarrow$ Biodiversität und Landwirtschaft
+* Verlagerung von Pkw & Flug zu Bahn & aktiver Mobilität
+* CLEVER modelliert Konvergenz auf ~10.000–15.000 km/Person/Jahr (aktuell bis 20.000+)
+* Flächenverbrauch neuer Infrastruktur und Biodiversitätskosten mitdenken
 :::
 
 ::: {.fragment .suf-card}
 **Was folgt daraus?**
 
 * Grünes Wachstum und Suffizienz schließen sich nicht aus $\rightarrow$ konsistente Maßnahmenpakete existieren
+* CLEVER (2023): −20 % bis −30 % EU-Endenergie durch Suffizienz allein erreichbar
+
+[Nature Communications 2024]{.badge .badge-solide}
 :::
 
 ---
@@ -445,7 +448,7 @@ Aktive Reduktion des materiellen Durchsatzes in reichen Ländern als ökologisch
 ## Wachstumszwänge?
 
 ::: section-label
-05 · Implikationen — Verteilung
+04 · Diskussion — Wachstumszwang
 :::
 
 ::: rule
@@ -556,88 +559,289 @@ Fazit
   - *Warum das BIP für eine Digitalwirtschaft mit unsichtbaren Werten nicht mehr taugt — und was stattdessen zählen sollte.*
 
 
+  
+  
+## Zum Weiterlesen III {.smaller}
+
+### Suffizienz & Energiepolitik
+
+- Gräbner-Radkowitsch, C., Lage, J., & Wiese, F. (2022, 20. Juni). Zur ökonomischen Bedeutung von Suffizienz. *Makronom – Online Magazin für Wirtschaftspolitik*. <https://makronom.de/zur-oekonomischen-bedeutung-von-suffizienz-42099>
+  - *Zugängliche Einführung in die ökonomischen Grundlagen von Suffizienz: Warum ist Suffizienz wirtschaftlich sinnvoll — und was unterscheidet sie von bloßem Konsumverzicht?*
+
+- négaWatt Association et al. (2023). *CLEVER — A Collaborative Low Energy Vision for the European Region: Final Report*. <https://clever-energy-scenario.eu>
+  - *Das umfassendste Bottom-up-Szenario für eine suffiziente Energiewende in Europa: quantifiziert, wie −55 % Endenergie bis 2050 durch Suffizienz, Effizienz und Erneuerbare erreichbar sind — ohne CCS.*
+
+- Samadi, S., Lechtenböhmer, S. et al. (2024). Towards a low-energy demand future: The CLEVER scenario for Europe. *Nature Communications*.
+  - *Peer-reviewed Version des CLEVER-Szenarios: −20 % bis −30 % Endenergie allein durch Suffizienzmaßnahmen in Deutschland, Frankreich und UK.*
+
+### Arbeitszeit & Produktivität
+
+- Backmann, J., Hoch, F., Hüby, J., Platz, M., & Sinnemann, M. F. (2026). *Die 4-Tage-Woche in Deutschland: Ein Follow-Up zwei Jahre nach dem Start der Pilotstudie*. Intraprenör, Berlin. <https://www.4tagewoche.org>
+  - *Follow-Up-Studie (n=45 Organisationen): 70 % führen Arbeitszeitreduzierung fort; Finanzkennzahlen stabil, 94 % bessere Work-Life-Balance, 74 % höhere Innovation & Kreativität. Wichtige Einschränkung: kein Rückgang der Fehlzeiten nachweisbar, Übergangsrisiken dokumentiert.*
+
+
 # Anhang
 
-## Was bleibt offen?
+## Anhang: Übersicht {.smaller}
 
 ::: section-label
-06 · Ausblick
+Anhang
+:::
+
+::: rule
+:::
+
+| | Abschnitt | Inhalt |
+|---|---|---|
+| **A** | Das Bruttoinlandsprodukt | Definition, Berechnungsarten, Bevölkerung & Arbeitszeit |
+| **B** | Ökologische Grenzen | CO₂-Budget und Technologiewandel |
+| **C** | Suffizienz | Was ist das? Wie konsistent integrieren? |
+| **D** | Wachstumszwänge | Mechanismen, Fiskallogik & Alternativen |
+
+---
+
+# A · Das Bruttoinlandsprodukt
+
+## Was misst das BIP?
+
+::: section-label
+Anhang A · Das BIP — Definition
 :::
 
 ::: rule
 :::
 
 :::: {.columns}
-::: {.column width="50%"}
-**Empirisch offen**
+::: {.column width="55%"}
+::: arg-card
+**Das BIP misst…** den monetären Wert aller Endgüter und Dienstleistungen, die innerhalb eines Landes in einem Jahr produziert werden.
 
-- Wie wird Entkopplungsgeschwindigkeit maximiert?
-- Wie groß ist der Grenznutzen von Wachstum bei hohem Einkommen?
-- Welche Wachstumsmodelle reduzieren Ungleichheit?
-- Interdependenz zwischen Globalem Süden und Norden
+- *Inlandsprinzip*: alle im Inland produzierten Güter, unabhängig von Nationalität der Produzierenden
+- *Endprodukte*: Vorleistungen werden abgezogen (keine Doppelzählung)
+- *Aggregation über Geldwert*: einziger gemeinsamer Nenner für heterogene Güter
+:::
 :::
 
-::: {.column width="50%"}
-**Normativ offen**
+::: {.column width="45%"}
+::: {.fragment .formula-box}
+1 Jahr Altenpflege (100 €) + 2 Solarpanele (150 €) + 5 GB Daten (100 €) **= 350 € BIP**
 
-- Wie viel ökologisches Risiko ist vertretbar?
-- Wessen Wohlstand zählt — und über welchen Zeitraum?
-- Was schulden reiche Länder dem globalen Süden?
-- Welche Maßnahmen lassen sich schnell genug umsetzen / "erzwingen" / "erkämpfen"?
+→ Aggregation nur über Marktpreise möglich
+:::
+
+::: {.fragment .arg-card}
+**Nominales vs. reales BIP**
+
+BIP kann steigen, weil *mehr produziert* wurde — oder weil *Preise gestiegen* sind. 
+Für Wachstumsvergleiche zählt das **reale**, also inflationsbereinigte, BIP.
+:::
 :::
 ::::
 
-::: rule-full
-:::
-
-::: {.formula-box .fragment}
-Die **Pro-Seite** fragt: *Was leistet Wachstum?*
-
-Die **Contra-Seite** fragt: *Was kostet Wachstum — und was übersieht es?*
-
-Beide Fragen wissenschaftlich legitim $\rightarrow$ die Schlussfolgerungen daraus sind politisch.
-:::
-
 ---
 
-## Das BIP
+## Die drei Berechnungsarten
+
+::: section-label
+Anhang A · Das BIP — Berechnungsarten
+:::
+
+::: rule
+:::
 
 :::: {.columns}
-::: {.column width="50%"}
-**BIP misst…**
+::: {.column width="33%"}
+::: {.school-card .school-pro}
+**Entstehungsrechnung**
 
-- Marktwert aller **End**güter und -dienstleistungen im Inland
-- Vorleistungen werden abgezogen (keine Doppelzählung)
-- *Inlandsprinzip*: alle im Inland produzierten Güter, unabhängig von der Nationalität der Produzierenden
-- Auch nicht gehandelte Güter: Eigeninvestitionen, Eigenverbrauch
-- Standardmaß für Wachstum: Veränderung des realen BIP pro Kopf
+*Angebotsseite*
+
+$$Y = Prod - VL - Sub + T$$
+
+BIP als **Wert aller Endprodukte** — Produktionswert minus Vorleistungen, bereinigt um Subventionen und Steuern.
+:::
 :::
 
-::: {.column width="50%"}
-**BIP misst *nicht*…**
+::: {.column width="33%"}
+::: {.school-card .school-mid}
+**Verwendungsrechnung**
 
-- Unbezahlte Care- und Hausarbeit
-- Ehrenamtliche & freiwillige Arbeit
-- Verteilung von Einkommen und Vermögen
-- Ökologische Schäden & Ressourcenverzehr
-- Lebenszufriedenheit und Gesundheit
+*Nachfrageseite*
+
+$$Y = C + I + G + X$$
+
+BIP als **Summe aller Ausgaben** — Konsum, Investitionen, Staatsausgaben, Nettoexporte.
+:::
+:::
+
+::: {.column width="33%"}
+::: {.school-card .school-contra}
+**Verteilungsrechnung**
+
+*Einkommensseite*
+
+$$Y = W + P + T + A - X$$
+
+BIP als **Summe aller Einkommen** — Löhne, Gewinne, Steuern, Abschreibungen, minus Auslandseinkommen.
+:::
 :::
 ::::
 
-::: rule-full
-:::
-
-::: fragment
-*Alternativen: Human Development Index (HDI) · Genuine Progress Indicator · Kate Raworths Donut-Ökonomie*
+::: {.fragment .formula-box}
+Alle drei Verfahren führen zum **gleichen Ergebnis** — drei Perspektiven auf denselben wirtschaftlichen Kreislauf.
 :::
 
 ---
 
+## Was erhöht das BIP — was fehlt darin?
+
+::: section-label
+Anhang A · Das BIP — Grenzen & Staatsanteil
+:::
+
+::: rule
+:::
+
+:::: {.columns}
+::: {.column width="48%"}
+::: arg-card
+**Erhöht das BIP ↑**
+
+- Rüstungsausgaben, Reparaturen nach Unfällen
+- Werbung & geplante Obsoleszenz
+- Neubau (auch wenn Sanierung effizienter wäre)
+- Überstunden & Arbeitszeitverlängerungen
+:::
+
+::: {.fragment .arg-card}
+**Die Rolle öffentlicher Aktivitäten**
+
+In der Verwendungsrechnung ist $G$ (Staatsausgaben) einer der **vier zentralen Bestandteile** — ca. **20 % des deutschen BIP** (2018). Staatliche Leistungen gehen über Produktionskosten ein, da keine Marktpreise existieren.
+
+[Kuznets-Warnung: wofür nutzen wir das BIP?]{.badge .badge-umstr}
+:::
+
+::: {.fragment .formula-box}
+→ Sparpolitik (Kürzung $G$) dämpft das BIP direkt — die Wachstumsdebatte ist immer auch Haushaltsdebatte.
+:::
+:::
+
+::: {.column width="48%"}
+::: {.fragment .arg-card}
+**Fehlt im BIP ↓**
+
+- Unbezahlte Care- und Hausarbeit
+- Ehrenamt und Nachbarschaftshilfe
+- Naturkapital und ökologische Schäden
+- Einkommens- und Vermögensverteilung
+- Lebenszufriedenheit und Gesundheit
+:::
+
+::: {.fragment .chart-note}
+*Alternativen: Human Development Index (HDI) · Genuine Progress Indicator · Donut-Ökonomie (Raworth) · Beyond-GDP (EU)*
+:::
+:::
+::::
+
+---
+
+## Bevölkerungswachstum und BIP
+
+::: section-label
+Anhang A · Das BIP — Bevölkerung & Wachstum
+:::
+
+::: rule
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+::: chart-wrap
+![](img/bev-bip-index.png){width="100%"}
+
+::: chart-note
+Quelle: World Development Indicators, Weltbank · BIP in konstanten EUR · BIP pro Kopf = BIP / Bevölkerung
+:::
+:::
+:::
+
+::: {.column width="40%"}
+::: {.fragment .arg-card}
+**Aggregat ≠ Lebensstandard**
+
+Bevölkerungswachstum erhöht das Gesamt-BIP automatisch — mehr Arbeitende, mehr Nachfrage.
+
+Für den Lebensstandard entscheidend: **BIP pro Kopf**.
+
+*Demografische Dividende*: viele Erwerbstätige, wenig Abhängige → günstigste Wachstumsphase.
+:::
+
+::: {.fragment .arg-card}
+**Implikation Deutschland**
+
+- Bevölkerung +5 %, BIP pro Kopf +48 % (seit 1990)
+- Wachstum fast ausschließlich durch **Produktivität**
+- Pro-Kopf-Wohlstand erfordert Innovation, nicht nur mehr Menschen
+:::
+:::
+::::
+
+---
+
+## Arbeitszeit und BIP (1970–2025)
+
+::: section-label
+Anhang A · Das BIP — Arbeitszeit & Produktivität
+:::
+
+::: rule
+:::
+
+:::: {.columns}
+::: {.column width="55%"}
+::: chart-wrap
+![](img/arbeitsstunden.png){width="100%"}
+
+::: chart-note
+Quelle: IAB / Destatis · Westdeutschland bis 1990, Gesamtdeutschland ab 1991
+:::
+:::
+
+::: {.fragment .formula-box}
+**BIP-Zerlegung:**
+$$Y = \frac{Y}{h} \cdot \frac{h}{E} \cdot E$$
+Stundenproduktivität × Stunden je Erwerbstätige·r × Erwerbstätige
+:::
+:::
+
+::: {.column width="45%"}
+::: {.fragment .arg-card}
+**Drei Mechanismen**
+
+- *Einkommenseffekt*: mehr Wohlstand → mehr Freizeit
+- *Substitutionseffekt*: höhere Löhne → Arbeit attraktiver
+- *Produktivitätsrückkopplung*: kürzere Zeiten → weniger Ermüdung → höhere Stundenleistung
+:::
+
+::: {.fragment .arg-card}
+**Kernbefunde**
+
+- −630 Std./Jahr seit 1970 (−32 %) — trotz gestiegenem BIP pro Kopf
+- Kurze Arbeitszeit ↔ hohe Stundenproduktivität: negativer Zusammenhang in Europa [Evidenz: solide, aber wenig Studien für d]{.badge .badge-solide}
+- 4-Tage-Woche DE Follow-Up (2026, n=45 Org.): 70 % führen Arbeitszeitreduzierung nach Pilotstudie fort; Finanzkennzahlen stabil, 94 % berichten bessere Work-Life-Balance [Backmann et al. 2026](https://www.wiwi.uni-muenster.de/tow/sites/tow/files/downloads/4DW_FollowUp_Report_Deutsch.pdf){.badge .badge-solide}
+- **„Mehr Arbeit = mehr Wachstum"** empirisch nicht haltbar
+:::
+:::
+::::
+
+---
+
+# B · Ökologische Grenzen: Evidenz und Dynamik
 
 ## Das verbleibende CO₂-Budget ist sehr klein {.contra-slide}
 
 ::: section-label
-03 · Contra-Wachstum · Ökologische Grenzen — Evidenz
+Anhang B · Ökologische Grenzen — CO₂-Budget
 :::
 
 ::: rule
@@ -679,6 +883,10 @@ Gilt aber auch für politische Prozesse hin zu einer möglichen Postwachstumsges
 
 ## Aber: Technologischer Wandel kann sehr schnell gehen {.contra-slide}
 
+::: section-label
+Anhang B · Ökologische Grenzen — Technologiedynamik
+:::
+
 ::: rule
 :::
 
@@ -709,65 +917,114 @@ Frühere Transitionen *ergänzten* bestehenden Verbrauch, sie ersetzten ihn nich
 
 [Offene Frage: schnell genug?]{.badge .badge-umstr}
 :::
+
+- Technologiewandel und Suffizienz sind komplementär: Effizienz verringert den Transformationsbedarf — zusammen realistischer als jedes Instrument allein
+
 :::
 ::::
 
-::: {.fragment .chart-note}
-*Technologiewandel und Suffizienz sind komplementär: Effizienz verringert den Transformationsbedarf — zusammen realistischer als jedes Instrument allein.*
-:::
-
 ---
 
----
+# C · Suffizienz
 
-## Innovation & Produktivität {.pro-slide}
+## Was ist Suffizienz?
 
 ::: section-label
-02 · Pro-Wachstum · Argument 3
+Anhang C · Suffizienz — Definition
 :::
-
-::: {.rule style="background:var(--pro);"}
-:::
-
-![Forschende und BIP](img/gdp-researchers.png){width="80%"}
-
-::: {.column width="45%"}
-::: arg-card
-Wachstumserwartungen fördern Investitionen in Forschung und Entwicklung. 
-
-[Evidenz: solide (Zusammenhang)]{.badge .badge-solide}
-:::
-
-::: {.fragment .arg-card}
-**Einschränkung:** Kausalitätsrichtung unklar — wohlhabende Länder können sich schlicht mehr F&E leisten (umgekehrte Kausalität).
-
-[Romer 1990 vs. Solow-Residuum]{.badge .badge-umstr}
-:::
-:::
-
----
-
-## Politische Instrumente: Suffizienz mit im Maßnahmenkoffer
 
 ::: rule
 :::
 
 :::: {.columns}
 ::: {.column width="50%"}
+::: formula-box
+**Drei Hebel der Dekarbonisierung**
+
+🔋 **Erneuerbare** → Versorgung dekarbonisieren<br>
+⚙️ **Effizienz** → gleicher Nutzen mit weniger Energie<br>
+🌿 **Suffizienz** → Nachfrage auf ein nachhaltiges Niveau ausrichten
+
+*CLEVER-Ansatz: Suffizienz zuerst definieren — dann Effizienz — dann Erneuerbare*
+:::
+
+::: {.fragment .arg-card}
+Suffizienz fragt: **Was brauchen wir wirklich, um gut zu leben?**
+
+Nicht Askese — sondern: Mindest- und Höchstkorridore für Konsum definieren.
+
+*Equity-Dimension*: ärmere Länder erhöhen Verbrauch, reichere reduzieren → Konvergenz auf nachhaltigem Niveau.
+:::
+:::
+
+::: {.column width="50%"}
+::: {.fragment .arg-card}
+**Sektoren-Beispiele (CLEVER)**
+
+🏠 **Wohnen**: Wohnfläche pro Kopf begrenzen [häufiger Vorschlag — praktisch und normativ nicht trivial]{.badge .badge-umstr}; Sanierung statt Neubau<br>
+🚆 **Mobilität**: Reisekilometer reduzieren; Verlagerung von Luft & Pkw zu Schiene & aktiver Mobilität<br>
+🏭 **Industrie**: Kreislaufwirtschaft eliminiert Bedarf an CCS-Technologien
+:::
+
+::: {.fragment .arg-card}
+**Quantifizierung EU** (CLEVER Final Report 2023):
+
+**−20 % bis −30 %** des Endenergieverbrauchs allein durch Suffizienz erreichbar (quantifiziert für Deutschland, Frankreich, UK)
+
+[Nature Communications 2024]{.badge .badge-stark}
+:::
+:::
+::::
+
+---
+
+## Suffizienz im Maßnahmenkoffer
+
+::: section-label
+Anhang C · Suffizienz — Integration
+:::
+
+::: rule
+:::
+
+Suffizienz ist kein Gegensatz zu bestehenden Maßnahmen — sie macht sie **konsistenter und wirksamer**:
+
+:::: {.columns}
+::: {.column width="33%"}
+::: suf-card
 **Preise richtig setzen**
 
 - CO₂-Preis nur mit Rückverteilung — sonst regressiv
 - Klimabonus AT: 98% automatisch, regional gestaffelt
 - Dienstwagenprivileg: −690 €/t CO₂ — 16× CO₂-Preis (Ariadne 2024)
-- Pendler-/Dieselprivileg: ~€20 Mrd./Jahr — reformierbar
+
+*Suffizienz-Konsistenz*: sufficienzhemmende Subventionen abbauen (Neubaubonus, Dienstwagenregel, Dieselprivileg)
+:::
 :::
 
-::: {.column width="50%"}
+::: {.column width="33%"}
+::: suf-card
 **Nachfrage gestalten**
 
-- CLEVER-Szenario: ≥40% EU-Energiereduktion bis 2050 (Nature Comm. 2024)
 - Right to Repair: EU-Recht seit Juli 2024
 - Fossil-Werbeverbot: Amsterdam 2026, Spanien 2025
+
+*Suffizienz-Konsistenz*: CLEVER-Mobilitätskorridore (~10.000–15.000 km/Person/Jahr); Wohnflächenanreize weg von reinen Neubauvorteilen
+
+[CLEVER 2023]{.badge .badge-solide}
+:::
+:::
+
+::: {.column width="33%"}
+::: suf-card
+**Standards setzen**
+
+- CLEVER: −55% EU-Endenergie bis 2050 nur mit Suffizienz als gleichwertigem Hebel realistisch
+
+*Suffizienz-Konsistenz*: Gebäuderichtlinie (EPBD) mit Tiefensanierungspflicht; nationale Energiepläne (NECPs) mit eigenem Suffizienz-Kapitel
+
+[CLEVER 2023 · EU-Kommission]{.badge .badge-solide}
+:::
 :::
 
 ::::
@@ -790,6 +1047,8 @@ Pendler-/Dieselprivileg: UBA identifiziert ~65 Mrd. €/Jahr umweltschädliche S
 
 CLEVER-Szenario: Wuppertal Institut + Öko-Institut + 13 Partner, Nature Communications 2024. 50% EU-Endenergiereduktion bis 2050 — ≥40% davon allein durch Suffizienz, nicht Technologie. Ohne Suffizienz: CCS-Abhängigkeit oder massive Importabhängigkeit unvermeidbar.
 
+CLEVER-Mobilitätskorridore: Konvergenz auf ca. 10.000–15.000 km Personenverkehr pro Jahr und Kopf bis 2050. Aktuell in reichen Ländern bis 20.000+ km. Reduktion primär durch weniger Flugreisen und weniger Autokilometer, kompensiert durch mehr Bahn und aktive Mobilität.
+
 Right to Repair: EU-Richtlinie 2024/1799, in Kraft Juli 2024, Umsetzung bis Juli 2026. Gilt für Waschmaschinen, Kühlschränke, Smartphones, Tablets. Hersteller müssen Reparatur anbieten, 12 Monate Garantieverlängerung nach Reparatur. EU-Rat: vorzeitige Entsorgung verursacht 261 Mio. t CO₂/Jahr in der EU.
 
 Fossil-Werbeverbot: Den Haag Januar 2024 (erste Stadt weltweit), Amsterdam Januar 2026, Spanien Gesetzentwurf Juni 2025. Nature Climate Change 2025 (19.000 Befragte, 13 EU-Länder): 46,6% dafür, 24,9% dagegen. Tobacco-Analogie: WHO-Rahmenkonvention dokumentiert — Werbeverbote senken Konsum und verschieben Normen.
@@ -797,10 +1056,12 @@ Fossil-Werbeverbot: Den Haag Januar 2024 (erste Stadt weltweit), Amsterdam Janua
 
 ---
 
+# D · Wachstumszwänge
+
 ## Wachstum als Konfliktpuffer
 
 ::: section-label
-Anhang · Wachstumszwang
+Anhang D · Wachstumszwang
 :::
 
 ::: rule
@@ -856,7 +1117,7 @@ Wachstumskritik ohne Umverteilungsantwort ist keine politische Strategie. Aber d
 ## Der Wachstumszwang in Zahlen
 
 ::: section-label
-Anhang · Wachstumszwang — Fiskalische Mechanik
+Anhang D · Wachstumszwang — Fiskalische Mechanik
 :::
 
 ::: rule
@@ -928,7 +1189,7 @@ Beide = politische Verteilungskämpfe. g erhöhen erscheint einfacher.
 ## Alternativpfad ohne Wachstumszwang
 
 ::: section-label
-Anhang · Wachstumszwang — Alternativen
+Anhang D · Wachstumszwang — Alternativen
 :::
 
 ::: rule
